@@ -1,0 +1,52 @@
+nav {
+  // background-image: url("../../assets/fond-nav-transparent.png");
+  // background-size: auto 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    36deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(0, 0, 0, 1) 65%
+  );
+
+  color: rgba($color: #ffffff, $alpha: 1);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-end;
+  height: 8%;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+
+  .links {
+    // background-color: salmon;
+    display: flex;
+    justify-content: space-evenly;
+    text-overflow: clip;
+    a {
+      // padding: 15px 0px;
+      text-overflow: clip;
+      margin: 12px;
+      color: white;
+      &:hover {
+        cursor: pointer;
+        // color: rgb(167, 196, 104);
+        color: #b7d09f;
+        transition: 2s;
+      }
+      //   animation-name: k2000;
+      //   animation-direction: alternate;
+    }
+  }
+}
+// .actif {
+//   color: brown;
+//   background-color: coral;
+// }
+// @keyframes k2000 {
+//   from {
+//     border: 0;
+//   }
+//   to {
+//     border-bottom: 4px solid white;
+//   }
+// }
