@@ -72,7 +72,8 @@ h5 {
   margin-bottom: 80px;
   padding: 25px;
   background-color: rgba($color: #ffffff, $alpha: 0.25);
-  font-style: italic;
+  // font-style: italic;
+  text-align: justify;
 }
 .exp2 {
   width: 50%;
@@ -80,4 +81,5 @@ h5 {
   margin-bottom: 80px;
   padding: 25px;
   background-color: rgba($color: #000000, $alpha: 0.25);
+  text-align: justify;
 }
