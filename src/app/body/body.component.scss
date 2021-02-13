@@ -5,6 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  h1 {
+    padding-top: 10vh;
+  }
 }
 
 #slide2 {
@@ -37,13 +40,6 @@
   min-height: 1000px;
   height: 100%;
   padding-bottom: 5%;
-  h1 {
-    box-sizing: border-box;
-    margin: 0;
-    padding-top: 0%;
-    padding-bottom: 50px;
-    text-align: center;
-  }
 }
 #presentation {
   padding-bottom: 200px !important;

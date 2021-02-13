@@ -16,3 +16,11 @@ body {
   // font-weight: bold;
   scroll-behavior: smooth;
 }
+
+h1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 15vh;
+  padding-bottom: 50px;
+  text-align: center;
+}
