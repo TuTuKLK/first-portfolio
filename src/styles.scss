@@ -24,3 +24,20 @@ h1 {
   padding-bottom: 50px;
   text-align: center;
 }
+footer {
+  color: aliceblue;
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
+  height: auto;
+  background-color: rgba($color: #686d6d, $alpha: 0.8);
+  text-align: center;
+  // margin-top: 5%;
+  padding: 15px 0;
+  font-size: 0.5em;
+}
+h2 {
+  margin: 0%;
+  padding: 10px 0 0 0;
+  font-size: 1em;
+}
