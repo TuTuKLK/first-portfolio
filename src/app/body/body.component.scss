@@ -10,10 +10,13 @@
 #slide2 {
   background: url("/assets/Slide2.jpg") center / cover no-repeat fixed;
   color: aliceblue;
-  p {
-    padding: 0 45vh;
-    text-align: justify;
-  }
+  //   p {
+  //     padding: 0 45vh;
+  //     text-align: justify;
+  //   }
+  //   h3 {
+  //     margin-top: 5%;
+  //   }
 }
 
 #slide3 {
@@ -23,6 +26,9 @@
 #slide4 {
   background: url("/assets/Slide4.jpg") center / cover no-repeat fixed;
   color: aliceblue;
+  p {
+    text-align: center;
+  }
 }
 #slide1,
 #slide2,
@@ -34,7 +40,7 @@
   h1 {
     box-sizing: border-box;
     margin: 0;
-    padding-top: 100px;
+    padding-top: 0%;
     padding-bottom: 50px;
     text-align: center;
   }
@@ -71,4 +77,11 @@ h5 {
   padding: 25px;
   background-color: rgba($color: #ffffff, $alpha: 0.25);
   font-style: italic;
+}
+.exp2 {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+  padding: 25px;
+  background-color: rgba($color: #000000, $alpha: 0.25);
 }
